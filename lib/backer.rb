@@ -10,7 +10,7 @@ class Backer
   
   def back_project(project)
     @backed_projects << project
-    project.backers << self 
+    project.backers << self #project's backer arrays has to do with specific instance
   end
   
   
